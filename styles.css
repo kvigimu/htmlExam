@@ -3,15 +3,12 @@ body {
   margin: 1rem 2rem;
   width: 100%;
 }
-header {
-  margin-bottom: 4rem;
-}
-div {
+.mobile {
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .desktop {
   display: none;
 }
@@ -31,19 +28,18 @@ div {
   }
 }
 section {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 p {
   font-weight: 700;
   font-size: 16px;
   line-height: 19, 36px;
-
   color: #ff3998;
   text-transform: uppercase;
 }
 h1 {
-  font-weight: 900;
-  font-size: 48px;
+  font-weight: 800;
+  font-size: 45px;
   font-style: normal;
   line-height: 58px;
   color: #111111;
@@ -52,20 +48,43 @@ h1 {
 article {
   color: #555555;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 30px;
-  margin: 2rem 0;
+  margin: 9px 0;
 }
 .pinky {
   position: absolute;
   width: 391px;
   height: 398px;
-  top: 30px;
-  left: 233px;
+  top: 22px;
+  left: 248px;
+  clip: rect(36px, 202px, 395px, 0px);
 }
 button {
   border: solid 2px red;
   border-radius: 30px;
   padding: 1rem 3rem;
+  background-image: ur;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+}
+.companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.boom {
+  width: 130px;
+  height: 39px;
+  object-fit: cover;
+  object-position: -2%;
+}
+h4 {
+  font-weight: 530;
+  font-size: 32px;
   color: #111111;
+  line-height: 48px;
+  margin-bottom: 0;
 }
