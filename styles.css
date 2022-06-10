@@ -1,0 +1,71 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 1rem 2rem;
+  width: 100%;
+}
+header {
+  margin-bottom: 4rem;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+  .desktop,
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
+section {
+  margin: 2rem 0;
+}
+p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19, 36px;
+
+  color: #ff3998;
+  text-transform: uppercase;
+}
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 58px;
+  color: #111111;
+  margin: 0;
+}
+article {
+  color: #555555;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 2rem 0;
+}
+.pinky {
+  position: absolute;
+  width: 391px;
+  height: 398px;
+  top: 30px;
+  left: 233px;
+}
+button {
+  border: solid 2px red;
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  color: #111111;
+}
