@@ -3,6 +3,7 @@ body {
   width: 100%;
   margin: 1rem;
 }
+
 .mobile {
   margin-bottom: 3rem;
   margin-right: 2rem;
@@ -31,14 +32,16 @@ body {
 section {
   margin: 3rem 0;
 }
-.pinky {
+
+.pinkyDemon img {
+  width: 80%;
+}
+.pinkyDemon {
+  width: 100%;
   position: absolute;
+  top: 50px;
+  left: 200px;
   overflow: hidden;
-  z-index: -1;
-  width: 350px;
-  height: 273px;
-  left: 138px;
-  top: 46px;
 }
 p {
   font-weight: 700;
@@ -83,9 +86,13 @@ button {
   width: 45%;
 }
 
-.background {
-  background-image: url ("background.svg");
+.bgs {
+  background-image: url(https://images.unsplash.com/photo-1557682260-96773eb01377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .boom {
   height: 39px;
@@ -128,4 +135,28 @@ h1 {
 }
 .green {
   z-index: -1;
+}
+h6 {
+  letter-spacing: 4px;
+  font-weight: lighter;
+}
+.socMediaLogos {
+  text-align: left;
+  display: inline-flex;
+  gap: 10px;
+  color: #999999;
+}
+.footerTable th {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.footerTable td {
+  text-align: left;
+  padding: 5px 5px 5px 0;
+  width: 150px;
+  font-size: small;
+}
+.footerTable {
+  margin: 20px 0;
+  color: #555555;
 }
