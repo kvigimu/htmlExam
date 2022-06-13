@@ -1,17 +1,16 @@
 body {
   font-family: "Nunito Sans", sans-serif;
-  margin: 1rem 2rem;
   width: 100%;
+  margin: 1rem;
 }
-header {
-  margin-bottom: 4rem;
-}
-div {
+
+.mobile {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .desktop {
   display: none;
 }
@@ -31,41 +30,133 @@ div {
   }
 }
 section {
-  margin: 2rem 0;
+  margin: 3rem 0;
+}
+
+.pinkyDemon img {
+  width: 80%;
+}
+.pinkyDemon {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  overflow: hidden;
 }
 p {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19, 36px;
-
+  font-size: 12px;
+  line-height: 19px;
   color: #ff3998;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 h1 {
-  font-weight: 900;
-  font-size: 48px;
+  font-weight: 800;
+  font-size: 36px;
   font-style: normal;
-  line-height: 58px;
+  line-height: 40px;
   color: #111111;
   margin: 0;
 }
 article {
   color: #555555;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 2rem 0;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 9px 0;
 }
-.pinky {
-  position: absolute;
-  width: 391px;
-  height: 398px;
-  top: 30px;
-  left: 233px;
-}
+
 button {
   border: solid 2px red;
   border-radius: 30px;
   padding: 1rem 3rem;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.companies img {
+  width: 45%;
+}
+
+.bgs {
+  background-image: url(https://images.unsplash.com/photo-1557682260-96773eb01377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boom {
+  height: 39px;
+  object-fit: contain;
+  object-position: 3%;
+}
+h4 {
+  font-weight: 530;
+  font-size: 32px;
   color: #111111;
+  line-height: 48px;
+  margin-bottom: 0;
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 2 1;
+}
+.footerTop p,
+article,
+h1 {
+  margin: 2rem 0;
+}
+.green {
+  position: relative;
+  width: 45%;
+}
+
+.footerTop {
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+}
+
+.footerTop h1 {
+  border-bottom: solid 1px lightgray;
+  width: 300%;
+  z-index: 1;
+}
+.green {
+  z-index: -1;
+}
+h6 {
+  letter-spacing: 4px;
+  font-weight: lighter;
+}
+.socMediaLogos {
+  text-align: left;
+  display: inline-flex;
+  gap: 10px;
+  color: #999999;
+}
+.footerTable th {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.footerTable td {
+  text-align: left;
+  padding: 5px 5px 5px 0;
+  width: 150px;
+  font-size: small;
+}
+.footerTable {
+  margin: 20px 0;
+  color: #555555;
 }

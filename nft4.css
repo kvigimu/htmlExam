@@ -1,0 +1,43 @@
+.nft4Table {
+  width: 290px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #eeeeee;
+  margin-top: -4px;
+}
+
+.ntf th,
+td {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.ntf th {
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.eth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 700;
+}
+.ntfName {
+  padding-top: 3px;
+  font-weight: 700;
+}
+
+.ntf4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.ntf {
+  padding-right: 1rem;
+}
