@@ -1,10 +1,11 @@
 body {
   font-family: "Nunito Sans", sans-serif;
-  margin: 1rem 2rem;
   width: 100%;
+  margin: 1rem;
 }
 .mobile {
   margin-bottom: 3rem;
+  margin-right: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,9 +34,10 @@ section {
 .pinky {
   position: absolute;
   overflow: hidden;
-  width: 452px;
-  height: 264px;
-  left: 131px;
+  z-index: -1;
+  width: 350px;
+  height: 273px;
+  left: 138px;
   top: 46px;
 }
 p {
@@ -69,18 +71,26 @@ button {
   background-color: white;
   margin-top: 2rem;
 }
+
 .companies {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  padding-right: 40px;
+}
+.companies img {
+  width: 45%;
+}
+
+.background {
+  background-image: url ("background.svg");
+  background-repeat: no-repeat;
 }
 .boom {
-  width: 130px;
   height: 39px;
-  object-fit: cover;
-  object-position: -2%;
+  object-fit: contain;
+  object-position: 3%;
 }
 h4 {
   font-weight: 530;
@@ -88,47 +98,4 @@ h4 {
   color: #111111;
   line-height: 48px;
   margin-bottom: 0;
-}
-
-.nft4Table {
-  width: 290px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: #eeeeee;
-  margin-top: -4px;
-}
-
-.ntf thead td,
-td,
-th {
-  padding: 0 20px;
-}
-.ntf thead td {
-  padding-top: 8px;
-  font-size: 12px;
-  font-weight: 700;
-}
-.ntf td {
-  padding: -1px;
-}
-.eth {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-.ntfName {
-  padding-top: 3px;
-}
-
-.ntf4 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-y: hidden;
-  overflow-x: auto;
-  padding-right: 20px;
-}
-.ntf {
-  padding-right: 20px;
 }
