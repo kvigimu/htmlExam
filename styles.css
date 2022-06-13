@@ -30,43 +30,43 @@ body {
 section {
   margin: 3rem 0;
 }
+.pinky {
+  position: absolute;
+  overflow: hidden;
+  width: 452px;
+  height: 264px;
+  left: 131px;
+  top: 46px;
+}
 p {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19, 36px;
+  font-size: 12px;
+  line-height: 19px;
   color: #ff3998;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 h1 {
   font-weight: 800;
-  font-size: 45px;
+  font-size: 36px;
   font-style: normal;
-  line-height: 58px;
+  line-height: 40px;
   color: #111111;
   margin: 0;
 }
 article {
   color: #555555;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 24px;
   margin: 9px 0;
 }
-.pinky {
-  position: absolute;
-  width: 391px;
-  height: 398px;
-  top: 22px;
-  left: 248px;
-  clip: rect(36px, 202px, 395px, 0px);
-}
+
 button {
   border: solid 2px red;
   border-radius: 30px;
   padding: 1rem 3rem;
   background-color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin-top: 2rem;
 }
 .companies {
@@ -74,6 +74,7 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .boom {
   width: 130px;
