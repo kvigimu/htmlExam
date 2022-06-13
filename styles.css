@@ -99,3 +99,33 @@ h4 {
   line-height: 48px;
   margin-bottom: 0;
 }
+
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 2 1;
+}
+.footerTop p,
+article,
+h1 {
+  margin: 2rem 0;
+}
+.green {
+  position: relative;
+  width: 45%;
+}
+
+.footerTop {
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+}
+
+.footerTop h1 {
+  border-bottom: solid 1px lightgray;
+  width: 300%;
+  z-index: 1;
+}
+.green {
+  z-index: -1;
+}
